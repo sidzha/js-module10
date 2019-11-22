@@ -1,0 +1,60 @@
+html {
+  color: #f9ffee;
+  background-color: #222831;
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Segoe UI Light", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.section-1 {
+  color: gray;
+  border-radius: 10px;
+  background-color: #1f242c;
+  padding: 5%;
+  margin-bottom: 2%;
+}
+
+.section-1--editeble {
+  transition: ease 0.5s;
+  color: #f9ffee;
+}
+
+button {
+  transition: ease 0.5s;
+  font-family: "Segoe UI", sans-serif;
+  width: 125px;
+  height: 40px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  color: #f9ffee;
+  cursor: pointer;
+}
+
+button:disabled {
+  color: gray;
+  border-color: slategray;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+.btn-edit {
+  margin-right: 5%;
+}
